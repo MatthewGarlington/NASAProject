@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2936D3291C877200042B21 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2936D2291C877200042B21 /* Helpers.swift */; };
 		6B54643A290F400D000CA6C3 /* NASAProjectAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B546439290F400D000CA6C3 /* NASAProjectAPIApp.swift */; };
 		6B54643C290F400D000CA6C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B54643B290F400D000CA6C3 /* ContentView.swift */; };
 		6B54643E290F400E000CA6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B54643D290F400E000CA6C3 /* Assets.xcassets */; };
 		6B546441290F400E000CA6C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B546440290F400E000CA6C3 /* Preview Assets.xcassets */; };
+		6B546448290F4090000CA6C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B546447290F4090000CA6C3 /* DataManager.swift */; };
+		6B61CDBE290F417A000383CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B61CDBD290F417A000383CE /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B2936D2291C877200042B21 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		6B546436290F400D000CA6C3 /* NASAProjectAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAProjectAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B546439290F400D000CA6C3 /* NASAProjectAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAProjectAPIApp.swift; sourceTree = "<group>"; };
 		6B54643B290F400D000CA6C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B54643D290F400E000CA6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B546440290F400E000CA6C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B546447290F4090000CA6C3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6B61CDBD290F417A000383CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				6B546439290F400D000CA6C3 /* NASAProjectAPIApp.swift */,
 				6B54643B290F400D000CA6C3 /* ContentView.swift */,
+				6B546447290F4090000CA6C3 /* DataManager.swift */,
+				6B61CDBD290F417A000383CE /* Model.swift */,
+				6B2936D2291C877200042B21 /* Helpers.swift */,
 				6B54643D290F400E000CA6C3 /* Assets.xcassets */,
 				6B54643F290F400E000CA6C3 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B54643C290F400D000CA6C3 /* ContentView.swift in Sources */,
+				6B546448290F4090000CA6C3 /* DataManager.swift in Sources */,
 				6B54643A290F400D000CA6C3 /* NASAProjectAPIApp.swift in Sources */,
+				6B2936D3291C877200042B21 /* Helpers.swift in Sources */,
+				6B61CDBE290F417A000383CE /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
